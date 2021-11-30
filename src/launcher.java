@@ -10,7 +10,7 @@ public class launcher {
         Scanner newVariable = new Scanner(System.in);
         String x = newVariable.nextLine();
         while (!x.equals("quit")){
-            System.out.println("Unknown");
+            System.out.println("Unknown command");
         }
     }
 
