@@ -9,7 +9,7 @@ public class launcher {
         System.out.println("Put a variable ^^");
         Scanner newVariable = new Scanner(System.in);
         String x = newVariable.nextLine();
-        if(!x.equals("quit" )){
+        while (!x.equals("quit")){
             System.out.println("Unknown");
         }
     }
